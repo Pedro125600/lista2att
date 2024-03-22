@@ -5,7 +5,7 @@ class Program
     public static void Main(string[] args)
     {
       Console.WriteLine("Digite uma letra:");
-      char letra = Console.char(Console.readline());
+      char letra = Char.Parse(Console.readline());
 
       switch (letra)
       {
