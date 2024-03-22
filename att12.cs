@@ -14,5 +14,5 @@ class Program
 
   Console.WriteLine("O peso ideal :" + peso);
 
-      Cosole.ReadLine();
+      Console.ReadLine();
 }
