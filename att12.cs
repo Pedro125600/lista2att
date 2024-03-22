@@ -5,14 +5,14 @@ class Program
     public static void Main(string[] args)
     {
   Console.Write("Digite a altura em metros: ");
-  double altura = double.Parse(Console.ReadLine());
+  double al = double.Parse(Console.ReadLine());
 
   Console.Write("Digite o sexo (F/M): ");
   char sexo = Char.Parse(Console.ReadLine());
 
-  double pesoIdeal = sexo == 'M' ? (72.7 * altura) - 58 : (62.1 * altura) - 44.7;
+  double peso = sexo == 'M' ? (72.7 * al) - 58 : (62.1 * al) - 44.7;
 
-  Console.WriteLine("O peso ideal :" + pesoIdeal);
+  Console.WriteLine("O peso ideal :" + peso);
 
       Cosole.ReadLine();
 }
